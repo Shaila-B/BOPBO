@@ -12,8 +12,3 @@ class ContactUs(models.Model):
     
     def __str__(self):
         return self.first_name
-# class MultipleFiles(models.Model):
-#     attachments = models.FileField(upload_to="%Y/%m/%d")
-#     contact = models.ForeignKey(ContactUs, on_delete=models.CASCADE)    
-    
-    
